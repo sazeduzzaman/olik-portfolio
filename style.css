@@ -367,7 +367,7 @@ a.navbar-brand img {
   height: 100vh;
   width: 21rem;
 }
-.text-justify{
+.text-justify {
   text-align: justify;
 }
 .bsnav-has-left-sidebar .bsnav-sidebar-left {
@@ -1098,8 +1098,22 @@ footer.footer-2,
   justify-content: center;
   height: 100%;
 }
-.hero-content-in{
+.hero-content-in {
   padding-top: 60px !important;
+}
+.thumbnail-2, .thumbnail {
+  border: 6px solid #f23074;
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 70% 30% 40% 60% / 42% 25% 75% 58%;
+}
+.slils-2, .slils {
+  border: 6px solid #f23074;
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 70% 30% 40% 60% / 42% 25% 75% 58%;
 }
 .hero-content h2 {
   font-size: 4rem;
@@ -1113,7 +1127,7 @@ footer.footer-2,
   background-image: -webkit-linear-gradient(122deg, #1d1585 0%, #3a44ca 100%);
   background-image: linear-gradient(122deg, #1d1585 0%, #3a44ca 100%);
 }
-.award-img{
+.award-img {
   height: 250px;
   object-fit: cover;
 }
